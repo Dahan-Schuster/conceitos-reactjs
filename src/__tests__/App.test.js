@@ -5,7 +5,7 @@ import api from "../services/api";
 
 const apiMock = new MockAdapter(api);
 
-import App from "../App";
+import App from "../App.jsx";
 
 const wait = (amount = 0) => {
   return new Promise((resolve) => setTimeout(resolve, amount));
